@@ -26,7 +26,7 @@ function Chats() {
          auth.onAuthStateChanged((user) => {
             dispatch(setUser(user));
         })
-        axios.get('https://api.chatengine.io/users/me/',{
+        axios.get('https://api.chatengine.io/users/me',{
             headers: {
                 "project-id": process.env.REACT_APP_CHAT_ENGINE_ID,
                  "user-name":mail,

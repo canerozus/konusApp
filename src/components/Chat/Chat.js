@@ -63,7 +63,7 @@ function Chats() {
                     Logout
                 </div>
             </div>
-            {!mainUser ? <Redirect to='/'/> : ((!mainUser.email && !mainUser.uid ) ? <div></div> : <ChatEngine
+            {!mainUser ? <Redirect to='/'/> : ((!mainUser.email && !mainUser.uid ) ? <div><p>Loading...</p></div> : <ChatEngine
                 height="calc(100vh - 66px"
                 projectID= {process.env.REACT_APP_CHAT_ENGINE_ID}
                 userName={mainUser.email}

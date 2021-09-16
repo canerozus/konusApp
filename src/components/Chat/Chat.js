@@ -2,7 +2,7 @@ import React, { useEffect,  } from 'react'
 import { useHistory, Redirect } from 'react-router-dom'
 import {  ChatEngine } from 'react-chat-engine'
 import { auth } from '../../firebase'
-import { Provider, useDispatch, useSelector } from 'react-redux';
+import {  useDispatch, useSelector } from 'react-redux';
 import { setUser } from '../store/AuthSlicer';
 import axios from 'axios';
 

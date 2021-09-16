@@ -4,7 +4,6 @@ export const AuthSlicer = createSlice({
     name: 'auth',
     initialState:{
         user:{},
-
         email:{},
         uid:{},
         PhotoURL:[]

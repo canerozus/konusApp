@@ -5,6 +5,7 @@ import { auth } from '../../firebase'
 import firebase from 'firebase';
 
 function Login() {
+    
     return (
         <div id='login-page'>
             <div id='login-card'>
